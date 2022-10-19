@@ -1,0 +1,1 @@
+python3 train.py --cfg_file {Your config file path} --batch_size {Mini batch_size} --pretrained_model {File path for pretrained weight}

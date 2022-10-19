@@ -1,0 +1,1 @@
+python3 test.py --cfg_file {Your config file path} --batch_size {Mini batch_size} --ckpt {File path for trained full model}

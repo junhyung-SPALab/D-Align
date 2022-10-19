@@ -1,0 +1,9 @@
+SharedArray
+easydict
+llvmlite
+numba
+numpy<=1.20
+pyyaml
+scikit-image
+tensorboardX
+tqdm

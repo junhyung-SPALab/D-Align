@@ -1,3 +1,4 @@
+README.md
 setup.py
 pcdet/__init__.py
 pcdet/config.py
@@ -10,14 +11,6 @@ pcdet.egg-info/top_level.txt
 pcdet/datasets/__init__.py
 pcdet/datasets/dataset.py
 pcdet/models/__init__.py
-pcdet/models/aggregation/__init__.py
-pcdet/models/aggregation/basic_attention.py
-pcdet/models/aggregation/basic_recurrent.py
-pcdet/models/alignment/SSEN.py
-pcdet/models/alignment/SSEN_Motion.py
-pcdet/models/alignment/TSN.py
-pcdet/models/alignment/__init__.py
-pcdet/models/alignment/basic_deform.py
 pcdet/models/backbones_2d/D_Align_bev_backbone.py
 pcdet/models/backbones_2d/__init__.py
 pcdet/models/backbones_2d/base_bev_backbone.py

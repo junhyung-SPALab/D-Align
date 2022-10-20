@@ -23,7 +23,7 @@ Results on nuScenes *val* set
 
 |    Model   | Sequence length |  mAP |  NDS | Link |
 |:----------:|:---------------:|:----:|:----:|:----:|
-| [D-Align_CP](tools/cfgs/D_Align_models/D_Align_CP.yaml) |        3        | 0.6373 | 0.6926 | [model](https://drive.google.com/file/d/1UcTfI3F4FByVJ94xBvs0xyfFP_QaT24J/view?usp=sharing) |
+| [D-Align_CP](tools/cfgs/D_Align_models/D_Align_CP.yaml) |        3        | 0.6373 | 0.6926 | [GoogleDrive](https://drive.google.com/file/d/1UcTfI3F4FByVJ94xBvs0xyfFP_QaT24J/view?usp=sharing) |
 
 
 ## Acknowledgement

@@ -46,3 +46,35 @@ python -m pcdet.datasets.nuscenes.nuscenes_dataset --func create_nuscenes_infos 
     ```
     python create_sequential_dbinfos_for_train.py --ref_dbinfos temporal_idx_t-1_dbinfos_D-Align --target_idx 2
     ```    
+### Train a model
+* D-Align can be trained with both of single GPU and multiple GPUs at pre-training and fine-tuning stage.
+* Pretraining: Train a single-frame model (PointPillars, CenterPoint)
+    * Download the pre-trained weights from the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) or newly train single-frame model.
+    ```
+    cd {work_space}/tools
+
+    # Single-GPU
+    bash train_single_frame_baseline_single_GPU.sh
+
+    # Multi-GPUs
+    bash train_single_frame_baseline_multi_GPU.sh    
+    ```
+
+* Fine-tuning: Train a multi-frame model(D-Align_PP, D-Align_CP)
+
+    ```
+    cd {work_space}/tools
+
+    # Single-GPU
+    bash train_d_align_single_GPU.sh
+
+    # Multi-GPUs
+    bash train_d_align_multi_GPU.sh
+    ```
+
+### Test a model
+* Test with a trained model
+    ```
+    cd {work_space}/tools
+    bash eval_d_align_single_GPU.sh
+    ```

@@ -172,7 +172,7 @@ class DUCANet_PP(nn.Module):
 
     @staticmethod
     def get_reference_points_DUCA(batch_size, spatial_shape_temporalAttn, n_level_attention, device):
-        valid_ratios = torch.ones(2,1).to(device)
+        valid_ratios = torch.ones(batch_size, 1).to(device)
         valid_ratios_temporal_batch = torch.ones(batch_size, 1, n_level_attention, 2).to(device)
 
         ref_points_deformAttn_list    = []
